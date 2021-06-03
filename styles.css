@@ -122,9 +122,7 @@ body {
     background: #333;
     color: white;
 }
-.container {
-    margin: 0 100 0 100;
-}
+
 .card {
     justify-content: center;
     margin: 20px 20px 20px 0 ;
