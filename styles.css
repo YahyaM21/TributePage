@@ -1,0 +1,152 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+    
+body {
+    background: rgb(235, 213, 182) !important;
+    z-index: -10;
+}
+#border {
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+.introImg {
+    z-index: 8;
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+}
+.slanted {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 450px;
+    background: #222;
+
+}
+
+.slanted::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: inherit;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: top right;
+    transform: skewY(-5deg);
+
+
+}
+
+
+.heading-content {
+    z-index: 10;
+    padding-top: 6rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.heading {
+    z-index: 10;
+    position: relative;
+    color: white;
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    opacity: 1;
+    padding-right: 200px;
+    padding-left: 200px;
+
+}
+
+.heading:hover {
+    font-size: 70px;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    top: 150px;
+    position: relative;
+    padding-left: 30px;
+    width: 100%;
+    text-align: left;
+}
+.background-content {
+    position: relative;
+    width: 50%;
+}
+.sub-heading {
+    position: inherit;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.background-heading {
+    bottom: 50px;
+}
+.background-images{
+    width: 50%;
+}
+.background-img {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-right: 10px;
+}
+.background-img2 {
+    position: relative;
+    width: 40%;
+    height: 22rem;
+}
+.key-heading {
+    top: 30px;
+    display: block;
+    padding: 2%;
+
+}
+
+.slanted2 {
+    margin-top: 16%;
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background: #333;
+    color: white;
+}
+.container {
+    margin: 0 100 0 100;
+}
+.card {
+    justify-content: center;
+    margin: 20px 20px 20px 0 ;
+    
+}
+.card-img-top:hover {
+    cursor: pointer;
+}
+
+.card-text {
+    color: black;
+}
+
+.row {
+    justify-content: center;
+
+}
+.col-md-3 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.row .card {
+    margin-top: 0;
+}
+
